@@ -46,7 +46,7 @@ const ProcessSteps = () => {
 
         <div className="grid md:grid-cols-5 gap-8 relative">
           {/* Connection lines for desktop */}
-          <div className="hidden md:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-trust to-primary opacity-30 z-0"></div>
+          {/* <div className="hidden md:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-trust to-primary opacity-30 z-0"></div> */}
           
           {steps.map((step, index) => (
             <div key={index} className="relative z-10">
