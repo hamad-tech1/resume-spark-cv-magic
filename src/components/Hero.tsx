@@ -92,8 +92,8 @@ const Hero = () => {
                   <CheckCircle className="w-4 h-4 text-white" />
                 </div>
                 <div>
-                  <div className="text-sm font-medium">CV Generated!</div>
-                  <div className="text-xs text-muted-foreground">Ready for download</div>
+                  <div className="text-sm font-medium">CV Enhancer!</div>
+                  <div className="text-xs text-muted-foreground">Ready to Generate</div>
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@ const Pricing = () => {
   const plans = [
     {
       name: "Basic CV",
-      price: "$9.99",
+      price: "$4.99",
       description: "Perfect for individual job seekers",
       features: [
         "1 CV conversion",
@@ -20,7 +20,7 @@ const Pricing = () => {
     },
     {
       name: "Professional CV",
-      price: "$19.99",
+      price: "$9.99",
       description: "Ideal for professionals and executives",
       features: [
         "1 CV conversion",
@@ -36,7 +36,7 @@ const Pricing = () => {
     },
     {
       name: "CV Package",
-      price: "$34.99",
+      price: "$14.99",
       description: "Complete solution for job applications",
       features: [
         "3 CV conversions",

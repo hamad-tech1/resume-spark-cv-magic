@@ -24,8 +24,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-accent/30 border-t border-border/50">
-      <div className="container mx-auto px-4">
-        <div className="py-16 grid md:grid-cols-4 gap-8">
+      
+        <div className="py-16 container mx-auto flex items-center justify-center">
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center gap-3">
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
 
           {/* Product */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-3">
               {links.product.map((link) => (
@@ -64,10 +64,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Support */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold mb-4">Support</h3>
             <ul className="space-y-3">
               {links.support.map((link) => (
@@ -81,10 +81,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Legal */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-3">
               {links.legal.map((link) => (
@@ -98,11 +98,11 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom */}
-        <div className="py-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="py-8 px-10 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
             © 2025 CVSpark. All rights reserved.
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
               Live Chat
             </a>
           </div>
-        </div>
+        
       </div>
     </footer>
   );
